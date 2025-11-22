@@ -510,4 +510,4 @@ This project is licensed under the MIT License.
 - [ ] Add your first document
 - [ ] Start querying your knowledge base!
 
-**Happy RAG-ing!** 🚀 
+**Happy RAG-ing!** 🚀

@@ -1,0 +1,35 @@
+{
+  "name": "llama-test",
+  "version": "1.0.0",
+  "description": "Dynamic RAG System with LlamaIndex and Gemini",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "terminal": "tsx src/rag.ts",
+    "rag": "tsx src/rag.ts",
+    "coach": "tsx src/coach-rag-entry.ts",
+    "coach-rag": "tsx src/coach-rag-entry.ts",
+    "demo": "tsx src/rag-demo.ts",
+    "cli": "tsx src/rag-cli.ts"
+  },
+  "keywords": ["rag", "ai", "llama", "gemini", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@llamaindex/google": "^0.3.13",
+    "@llamaindex/readers": "^3.1.13",
+    "@types/uuid": "^10.0.0",
+    "dotenv": "^17.2.0",
+    "llamaindex": "^0.11.15",
+    "uuid": "^11.1.0"
+  }
+}
